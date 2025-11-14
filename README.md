@@ -8,8 +8,8 @@
 In this assignment, we implement a **Deep Q-Network (DQN)** agent to play **Pong** using the Atari Learning Environment. The goal is to train the agent to learn a policy that maximizes cumulative rewards by exploring the game environment and estimating Q-values for each action. Experiments are conducted to observe how **mini-batch size** and **target network update rate** affect training stability and early learning performance.
 
 ## Project Structure
-- **lib/**: Contains all Python code for the DQN implementation, training scripts, and utility functions.
-- **Plots/**: Contains plots of episode rewards and Avg5 metrics (optional, if saved during training).
+- **lib**: Contains all Python code for the DQN implementation, training scripts, and utility functions.
+- **plots**: Contains plots of episode rewards and Avg5 metrics (saved during training).
 - **README.md**: Quick intro to the assignment.  
 - **documents**: This folder contains the word and PDF document for the assignment.  
 
